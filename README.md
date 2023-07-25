@@ -20,7 +20,7 @@ Gooey n'est pas très intelligent. Comme la plupart des Template Engine côté c
 
 Le script doit être installé dans le template overall_footer_end (Fin du bas de page), juste avant la fermeture de la balise `</body>` comme ceci : 
 
-```html
+```
 <script src="https://dl.dropbox.com/s/4b76cltajvc3w16/bundle.js?dl=0"></script>
 
 </body>
@@ -28,7 +28,7 @@ Le script doit être installé dans le template overall_footer_end (Fin du bas d
 
 Ensuite, dans le template index_body (Page d'accueil - affichage des catégories), il faudra le remplacer au complet par ceci : 
 
-```html
+```
 <script type="text/template" id="gooey">
   hello !
 </script>
