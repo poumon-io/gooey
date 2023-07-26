@@ -88,7 +88,7 @@ Le nouveau template s'écrit à l'intérieur de la balise `<script type="text/te
 
 !> Faites également attention à la position de cette balise ! Le template sera compilé et insérer dans le DOM à l'endroit de celle-ci.
 
-ForumActif vs Gooey
+## ForumActif vs Gooey
 ```css
 .gfm-color-chip {
   margin-left: 0.125rem;
