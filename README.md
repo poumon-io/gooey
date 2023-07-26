@@ -96,7 +96,8 @@ ForumActif vs Gooey
   height: 0.625rem;
   width: 0.625rem;
   border-radius: 9999px;
-  border: 1px solid gray;
+  background-color: #ff0000;
+  border: 1px solid #ffff;
 }
 ```
 
