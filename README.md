@@ -89,34 +89,20 @@ Le nouveau template s'écrit à l'intérieur de la balise `<script type="text/te
 !> Faites également attention à la position de cette balise ! Le template sera compilé et insérer dans le DOM à l'endroit de celle-ci.
 
 ## ForumActif vs Gooey
-```css
-.gfm-color-chip {
-  margin-left: 0.125rem;
-  display: inline-block;
-  height: 0.625rem;
-  width: 0.625rem;
-  border-radius: 9999px;
-  background-color: #ff0000;
-  border: 1px solid #ffffff;
-}
-```
 
-```html
-<!-- BEGIN catrow -->
+import MyComponent from "../components/article/FAComparisonCode"
+
+const PHPBB2Classic = `<!-- BEGIN catrow -->
 
 	<!-- BEGIN forumrow -->
 
 	<!-- END forumrow -->
 
 <!-- END catrow -->
-```
+`
 
-```jsx
-{{~ categories:c }}
+const PHPBB2Gooey
 
-	{{~ c.forums:f }}
+Voici l'équivalent 
 
-	{{~ }}
-
-{{~ }}
-```
+<FAComparisonCode PHPBB2={[PHPBB2Classic, PHPBB2Gooey]} />
