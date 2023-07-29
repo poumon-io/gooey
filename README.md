@@ -92,17 +92,15 @@ Le nouveau template s'écrit à l'intérieur de la balise `<script type="text/te
 
 import MyComponent from "../components/article/FAComparisonCode"
 
-const PHPBB2Classic = `<!-- BEGIN catrow -->
-
-	<!-- BEGIN forumrow -->
-
-	<!-- END forumrow -->
-
-<!-- END catrow -->
+const PHPBB2 = `{{~ categories:c }}
+ 
+	{{~ c.forums:f }}
+ 
+	{{~ }}
+ 
+{{~ }}
 `
-
-const PHPBB2Gooey
 
 Voici l'équivalent 
 
-<FAComparisonCode PHPBB2={[PHPBB2Classic, PHPBB2Gooey]} />
+<FAComparisonCode PHPBB2={[PHPBB2]} />
