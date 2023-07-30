@@ -90,7 +90,7 @@ Le nouveau template s'écrit à l'intérieur de la balise `<script type="text/te
 
 ## ForumActif vs Gooey
 
-import MyComponent from "../components/article/FAComparisonCode"
+import CodeComparisonSlider from "../components/article/CodeComparisonSlider"
 
 export const PHPBB2 = `{{~ categories:c }}
 	{{~ c.forums:f }}
@@ -99,4 +99,4 @@ export const PHPBB2 = `{{~ categories:c }}
 
 Voici l'équivalent 
 
-<FAComparisonCode PHPBB2={PHPBB2} />
+<CodeComparisonSlider PHPBB2={PHPBB2} />
