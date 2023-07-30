@@ -103,4 +103,4 @@ const PHPBB2 = `{{~ categories:c }}
 
 Voici l'équivalent 
 
-<FAComparisonCode PHPBB2={[PHPBB2]} />
+<FAComparisonCode PHPBB2={PHPBB2} />
